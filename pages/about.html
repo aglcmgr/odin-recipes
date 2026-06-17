@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <style>
-        body {
+        body 
+        {
             font-family: helvetica, sans-serif;
             background-color: #ffffff;
             margin: 0;
@@ -22,34 +23,80 @@
             align-items: center;
             margin-right: 20px;
         }
-        </style>
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .intro-container {
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <!-- Directory Links -->
-     <div class="directory-links" style="text-align: right;">
+     <div class="directory-links">
         <a href="../index.html">Home</a>
-        <a href="../pages/contact.html">Contact</a>
-        <a href="../pages/blog.html">Blog</a>
+        <a href="./reviews.html">Reviews</a>
+        <a href="./blog.html">Blog</a>
 
     </div>
-
-    <!-- Title -->
-    <h1 style="text-align: center;">About</h1>
 
     <!-- Logo -->
     <div style="text-align: center; margin-bottom: 20px;">
         <img src="../img/MyLogo.png" alt="Recipe Site Logo" class="logo">
     </div>
 
+        <!-- Heading -->
+    <h1 style="text-align: center;">About The Project</h1>
+
     <!-- About Information -->
-    <p style="text-align: center;">Welcome to my recipe site! ~add message here telling visitors about the purpose of the site.</p>
+    <div class="intro-container" style="text-align: center; margin-bottom: 20px; font-size: 13px; color: #000000;"> 
+        <p style="text-align: center; font-size: 13px;">I've been in love with cooking ever since I was a kid. There's something magical about combining simple ingredients to create something delicious that brings people together. Over the years, I've collected recipes that I absolutely love—dishes that have become favorites in my home and in my heart.</p>
+        <p style="text-align: center; font-size: 13px;">When I started learning web development through The Odin Project, I was excited to discover that they included a recipe website as a mini project! It was the perfect opportunity to combine my interest in cooking with my new web development skills. I collected my favorite recipes to build this practical project, and I hope you enjoy exploring it!</p>
+     <br>
+        <p>♡.﹀﹀﹀﹀.♡.﹀﹀﹀﹀.♡.﹀﹀﹀﹀.♡</p>
+    <br>
+    <!-- Currently Learning -->
+    <h3 style="text-align: center; margin-bottom: 10px;">Currently Learning</h3>
 
-    <!-- Website Purpose -->
-    <!-- Website Inspiration -->
+        <p style="text-align: center; font-size: 13px;">I'm focused on <strong><em>HTML foundations, semantic HTML, proper structure, elements, and tags</em></strong>. I've also started exploring CSS a bit because I got  curious about adding some style to my website lol. It's so fun to see how a little <strong><em>CSS</em></strong> can transform the look of a page, so I've been experimenting with styling as I go.</p>
 
-   <!-- Footer -->
+     <h3 style="text-align: center; margin-bottom: 10px;">What I've Learned So Far</h3>
+
+        <p style="text-align: center; font-size: 13px;">I've learned how to use the <strong><em>terminal and command line basics</em></strong>, which feels amazing! I've also understood <strong><em>Git and GitHub—how to initialize repositories, make commits, push to GitHub, and manage version control</em></strong>. These are tools I'm continuously familiarizing myself with because I know they're essential for any developer.</p>
+
+        <p style="text-align: center; font-size: 13px;">I'm getting more comfortable with <strong><em>VSCode</em></strong> every day! Learning all the keyboard shortcuts, extensions, and features is exciting. There's so much to discover, and  I love how my text editor can help me code more efficiently. I still have so much more to learn, but I'm genuinely happy and proud that I was able to build this website on my own! It feels amazing to see my ideas come to life. 💛</p>
+
+    </div>
+    <!-- Social Media Links -->
+    <h5 style="text-align: center; margin-bottom: 2px; color: #ff6ddf">Follow My Socials!</h5>
+
+    <div class="social-links">
+      <!--Credits to Instagram for the logo -->
+      <a href="https://instagram.com" target="_blank" rel="noreferrer" class="social-icon"><img src="../img/Instagram Logo.png" alt="Instagram" width="20" height="20"></a>
+
+      <!--Credits to Facebook for the logo -->
+      <a href="https://facebook.com" target="_blank" rel="noreferrer" class="social-icon"><img src="../img/FB Logo.png" alt="Facebook" width="20" height="20"></a>
+
+      <!--Credits to TikTok for the logo -->
+      <a href="https://tiktok.com" target="_blank" rel="noreferrer" class="social-icon"><img src="../img/TikTok Logo.png" alt="TikTok" width="20" height="20"></a>
+    
+      <!--Credits to YouTube for the logo -->
+      <a href="https://youtube.com" target="_blank" rel="noreferrer" class="social-icon"><img src="../img/YouTube Logo.png" alt="YouTube" width="30" height="20"></a>
+
+      <!--Credits to the designer of this cute envelope png file. Designed by Wang Templates at Creative Fabrica https://www.creativefabrica.com/product/envelope-png-file-cute-clip-art/ -->
+      <a href="mailto:hello@littlerabbitrecipes.com" class="social-icon"><img src="../img/Envelope.png" alt="Email" width="30" height="20"></a>
+    </div>
+
+    <!-- Footer -->
     <footer>
         <p style="text-align: center; margin-top: 25px; font-size: 0.7em; font-family: Arial, sans-serif;"><em>&copy; 2026 My Recipe Site. All rights reserved.</em></p>
     </footer>
+    
 </body>
 </html>
